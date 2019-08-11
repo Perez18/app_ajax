@@ -11,12 +11,6 @@
 
   );
 
-  /*if(isset($connec)){
-
-    echo'conectado';
-
-  } */
-   
 
   
 

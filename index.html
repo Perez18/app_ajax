@@ -14,8 +14,8 @@
 <body>
         <nav class="navbar navbar-dark bg-dark">
                 <a class="navbar-brand " style="color: aliceblue">AJAX</a>
-                <form class="form-inline">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="search" name="search">
+                <form class="form-inline" >
+                  <input class="form-control mr-sm-2" id="search" name="search" type="search" placeholder="Search" aria-label="Search" >
                   <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
               </nav>
@@ -69,7 +69,7 @@
                       <div class="card " id="buscar">
                          <div class="card-body">
                                       
-                          <ul id="contenido"></ul>
+                          <ul id="contenido"> </ul>
                           
                          </div>
  
@@ -89,15 +89,21 @@
 
                         </thead>
 
+                        <tbody id="tasks">
+
+                        </tbody>
+
                      </table>
 
 
             </div>   
-            <script
-            src="https://code.jquery.com/jquery-3.3.1.min.js"
-            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-            crossorigin="anonymous"></script>
-             <script src="app.js"></script>
+     <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  
+                    <script src="app.js"></script>
+             
           
 
 
