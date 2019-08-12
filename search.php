@@ -8,7 +8,7 @@ include('db.php');
 
 if(!empty($search)){
 
-   $query = "SELECT * FROM  app WHERE comentario LIKE '$search%'";
+   $query = "SELECT * FROM  app WHERE nombre LIKE '%$search%' or comentario LIKE '%$search%'";
    $resultado = mysqli_query($connec,$query);
 
    if(!($resultado)){
